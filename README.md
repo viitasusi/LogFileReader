@@ -2,7 +2,7 @@
 
 With LogFileReader one can monitor log. 
 
-LogFileReader is a simple dashboard with one simple widget. Application should monitor the changes to `file.txt` and 
+LogFileReader is a simple dashboard with one simple widget. Application monitors the changes to `file.txt` and 
 display distinct number of ERROR, WARNING and INFO messages for a last 5 seconds.
 
 ## Usage
