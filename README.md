@@ -13,9 +13,9 @@ display distinct number of ERROR, WARNING and INFO messages for a last 5 seconds
 
 ## Tech stack
 
-*html
-*javascript (with JQuery & stomp-websocket library)
-*Java (Spring Boot Framework)
+* html
+* javascript (with JQuery & stomp-websocket library)
+* Java (Spring Boot Framework)
 
 Communciation between the server and client is based on websocket technology. The server continuously polls `file.txt` 
 and pushes the gathered information to the client.
