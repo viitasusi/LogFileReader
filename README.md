@@ -23,5 +23,6 @@ and pushes the gathered information to the client.
 ## Next Versions
 
 The following updates still needed:
+
 1. Add unit tests in order to ensure quality of the code
 2. Add runtime configuration of the server. It should be possible to change polling sequence during runtime. This can be done for example with [Spring Cloud Config](https://github.com/spring-cloud/spring-cloud-config) library. 
