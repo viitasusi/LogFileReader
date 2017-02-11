@@ -1,4 +1,4 @@
-package com.simpleserver;
+package com.simpleserver.logreader;
 
 import org.apache.commons.io.input.ReversedLinesFileReader;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -63,7 +63,7 @@ public class LogReader {
 
     @PostConstruct
     public void readLogFile() throws IOException {
-        String logFile = "./src/main/java/com/simpleserver/file.txt";
+        String logFile = "./src/main/java/com/simpleserver/logreader/file.txt";
         ReversedLinesFileReader fr = new ReversedLinesFileReader(new File(logFile));
         String line;
         Timestamp t = new Timestamp(System.currentTimeMillis());

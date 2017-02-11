@@ -22,7 +22,7 @@
 2018-09-20 16:23:14,994 ERROR  Some error message
 2018-09-20 16:23:14,994 ERROR  Some error message
 2018-09-20 16:23:14,994 ERROR  Some error message
-2018-09-20 16:23:14,994 ERROR  Some error message
+2018-09-20 16:23:14,994 WARNING  Some warning message
 2018-09-20 16:23:14,994 ERROR  Some error message
 2018-09-20 16:23:14,994 ERROR  Some error message
 2018-09-20 16:23:14,994 ERROR  Some error message
