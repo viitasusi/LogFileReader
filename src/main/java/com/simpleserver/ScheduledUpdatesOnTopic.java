@@ -43,7 +43,5 @@ public class ScheduledUpdatesOnTopic{
             throw new RuntimeException(e);
         }
         return o.toString();
-
-        //return "info: " + r.getInfo() + "<br>errors: " + r.getErrors().toString() + "<br>warnings: " + r.getWarnings().toString();
     }
 }
